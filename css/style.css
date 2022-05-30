@@ -1204,7 +1204,7 @@ select {
 }
 .footer .footer-btm-wrapper .footer-single-col ul li {
   padding-bottom: 12px;
-  color: #8a8a8a;
+  color: #f82222;
   font-weight: 300;
 }
 .footer .footer-btm-wrapper .footer-single-col ul li:last-child {
@@ -6873,12 +6873,12 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-  stroke: #000080;
+  stroke: #00003e;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
-  stroke: #000080;
+  stroke: #000048;
   animation-delay: -2s;
 }
 
