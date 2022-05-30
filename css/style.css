@@ -85,7 +85,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 body {
   overflow-x: hidden;
@@ -107,7 +106,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #00B4D8;
+  color: #00b4d8;
   font-family: 'Arial', sans-serif;
   margin: 0;
 }
@@ -196,14 +195,6 @@ select {
 }
 /* -------- Pre Loader -------- */
 
-  
-
-
-
-
-
-
-
 /*
 #preloader {
   position: fixed;
@@ -277,12 +268,11 @@ select {
 .shape-1 .box {
   align-self: flex-end;
   animation-duration: 4.5s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
   height: 100%;
   width: 100%;
   margin: 0 auto 0 auto;
   transform-origin: left;
-  
 }
 .shape-1 .bounce-1 {
   animation-name: bounce-1;
@@ -5942,7 +5932,6 @@ select {
   margin-bottom: 15px;
 }
 #companis_supported_06 .companis_supported_logos {
-  background: url('../images/shape/home_6/shape-logo_border.png') no-repeat;
   max-height: 350px;
 }
 #companis_supported_06 .companis_supported_logos ul {
@@ -6764,12 +6753,10 @@ select {
 }
 
 #background_image {
-  
-    background-image: url(../images/shape/footer_shape_3.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  
+  background-image: url(../images/shape/footer_shape_3.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #blog-post .post-area .blog_wrapper .widget form input[type='search'] {
@@ -6819,16 +6806,9 @@ select {
   color: #7a839e;
 }
 
-.animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -6839,7 +6819,7 @@ select {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 190px;
+  font-size: 190px;
 }
 
 @keyframes textclip {
@@ -6847,7 +6827,6 @@ select {
     background-position: 200% center;
   }
 }
-
 
 #container {
   align-items: center;
@@ -6867,29 +6846,24 @@ select {
   color: #08aeea;
   text-align: center;
 
-  
   display: inline-block;
 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
   text-align: center;
   opacity: -1;
-  
 
   user-select: none;
-  
 }
 
 svg {
-
   font-size: 55px;
   font-family: Arial, Helvetica, sans-serif;
   width: 960px;
   height: 300px;
-  
 }
 
-  .text-copy {
+.text-copy {
   fill: none;
   stroke: white;
   stroke-dasharray: 6% 29%;
@@ -6898,36 +6872,35 @@ svg {
   animation: stroke-offset 5.5s infinite linear;
 }
 
-.text-copy:nth-child(1){
+.text-copy:nth-child(1) {
   stroke: #000080;
   animation-delay: -1;
 }
 
-.text-copy:nth-child(2){
+.text-copy:nth-child(2) {
   stroke: #000080;
   animation-delay: -2s;
 }
 
-.text-copy:nth-child(3){
-stroke: #00B4D8;
-animation-delay: -3s;
+.text-copy:nth-child(3) {
+  stroke: #00b4d8;
+  animation-delay: -3s;
 }
 
-.text-copy:nth-child(4){
-stroke: #00B4D8;
-animation-delay: -4s;
+.text-copy:nth-child(4) {
+  stroke: #00b4d8;
+  animation-delay: -4s;
 }
 
-.text-copy:nth-child(5){
-stroke: #000080;
-animation-delay: -5s;
+.text-copy:nth-child(5) {
+  stroke: #000080;
+  animation-delay: -5s;
 }
 
-@keyframes stroke-offset{
-100% {stroke-dashoffset: -35%;}
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
 }
-
-
-
 
 /*# sourceMappingURL=style.css.map */
