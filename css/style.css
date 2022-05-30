@@ -196,6 +196,15 @@ select {
 }
 /* -------- Pre Loader -------- */
 
+  
+
+
+
+
+
+
+
+/*
 #preloader {
   position: fixed;
   top: 0;
@@ -215,7 +224,7 @@ select {
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
-}
+}*/
 .is-sticky nav.navbar {
   /* background: #1b2565; */
   /* border-radius: 0; */
@@ -6870,6 +6879,55 @@ select {
   user-select: none;
   
 }
+
+svg {
+
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  height: 300px;
+  
+}
+
+  .text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 2px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: #000080;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #000080;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+stroke: #00B4D8;
+animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+stroke: #00B4D8;
+animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+stroke: #000080;
+animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+100% {stroke-dashoffset: -35%;}
+}
+
+
 
 
 /*# sourceMappingURL=style.css.map */
