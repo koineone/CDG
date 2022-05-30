@@ -4831,8 +4831,8 @@ select {
   -webkit-text-fill-color: transparent;
 }
 #header-06 .intro-text {
-  /* margin: 120px 0 300px; */
-  padding-right: 0;
+  margin: 0px;
+  padding: 0;
 }
 #header-06 .intro-text h1 {
   font-size: 40px;
