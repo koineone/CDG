@@ -1,10 +1,6 @@
 //Animation below logo
 
-
 //End of animation below logo
-
-
-
 
 //End Particles
 
@@ -21,7 +17,7 @@ particlesJS('particles1-js', {
       value: '#00B4D8',
     },
     shape: {
-      type: ['circle', 'e-dge','imag-e', 'image2', 'image-3', 'image-4', 'image-5', 'image6', 'image-7', 'image8', 'image-9', 'image-10'],
+      type: ['circle', 'e-dge', 'imag-e', 'image2', 'image-3', 'image-4', 'image-5', 'image6', 'image-7', 'image8', 'image-9', 'image-10'],
       stroke: {
         width: 0,
         color: '#00eeff',
@@ -59,8 +55,6 @@ particlesJS('particles1-js', {
       color: '#44e0ff',
 
       width: 0.05,
-
-      
     },
     move: {
       enable: true,
@@ -132,7 +126,7 @@ particlesJS('particles2-js', {
       value: '#24378C',
     },
     shape: {
-      type: ['circle','imag-e', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
+      type: ['circle', 'imag-e', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
       stroke: {
         width: 0,
         color: '#000',
@@ -350,7 +344,7 @@ particlesJS('particles4-js', {
       value: '#5affd4',
     },
     shape: {
-      type: ['circle','image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
+      type: ['circle', 'image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
       stroke: {
         width: 0,
         color: '#000',
@@ -449,7 +443,7 @@ particlesJS('particles4-js', {
 particlesJS('particles5-js', {
   particles: {
     number: {
-      value: 10,
+      value: 100,
       density: {
         enable: true,
         value_area: 800,
@@ -459,7 +453,7 @@ particlesJS('particles5-js', {
       value: '#5affd4',
     },
     shape: {
-      type: ['image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
+      type: ['circle', 'image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
       stroke: {
         width: 0,
         color: '#000',
@@ -482,7 +476,7 @@ particlesJS('particles5-js', {
       },
     },
     size: {
-      value: 10,
+      value: 3,
       random: false,
       anim: {
         enable: false,
@@ -558,20 +552,20 @@ particlesJS('particles5-js', {
 particlesJS('particles6-js', {
   particles: {
     number: {
-      value: 10,
+      value: 350,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 500,
       },
     },
     color: {
-      value: '#5affd4',
+      value: '#00B4D8',
     },
     shape: {
-      type: ['image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
+      type: ['circle', 'e-dge', 'imag-e', 'image2', 'image-3', 'image-4', 'image-5', 'image6', 'image-7', 'image8', 'image-9', 'image-10'],
       stroke: {
         width: 0,
-        color: '#000',
+        color: '#00eeff',
       },
       polygon: {
         nb_sides: 4,
@@ -581,7 +575,7 @@ particlesJS('particles6-js', {
       },
     },
     opacity: {
-      value: 1,
+      value: 2,
       random: false,
       anim: {
         enable: false,
@@ -591,26 +585,26 @@ particlesJS('particles6-js', {
       },
     },
     size: {
-      value: 10,
+      value: 3,
       random: false,
       anim: {
         enable: false,
-        speed: 10,
-        size_min: 40,
+        speed: 10000,
+        size_min: 20,
         sync: false,
       },
     },
     line_linked: {
-      enable: false,
-      distance: 200,
-      color: '#ffffff',
-      opacity: 1,
-      width: 2,
+      enable: true,
+      distance: 50,
+      color: '#44e0ff',
+
+      width: 0.05,
     },
     move: {
       enable: true,
-      speed: 8,
-      direction: 'none',
+      speed: 3,
+      direction: 'top',
       random: false,
       straight: false,
       out_mode: 'out',
@@ -626,7 +620,7 @@ particlesJS('particles6-js', {
     detect_on: 'canvas',
     events: {
       onhover: {
-        enable: false,
+        enable: true,
         mode: 'grab',
       },
       onclick: {
@@ -667,20 +661,20 @@ particlesJS('particles6-js', {
 particlesJS('particles7-js', {
   particles: {
     number: {
-      value: 10,
+      value: 350,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 500,
       },
     },
     color: {
-      value: '#5affd4',
+      value: '#00B4D8',
     },
     shape: {
-      type: ['image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
+      type: ['circle', 'e-dge', 'imag-e', 'image2', 'image-3', 'image-4', 'image-5', 'image6', 'image-7', 'image8', 'image-9', 'image-10'],
       stroke: {
         width: 0,
-        color: '#000',
+        color: '#00eeff',
       },
       polygon: {
         nb_sides: 4,
@@ -690,7 +684,7 @@ particlesJS('particles7-js', {
       },
     },
     opacity: {
-      value: 1,
+      value: 2,
       random: false,
       anim: {
         enable: false,
@@ -700,26 +694,26 @@ particlesJS('particles7-js', {
       },
     },
     size: {
-      value: 10,
+      value: 3,
       random: false,
       anim: {
         enable: false,
-        speed: 10,
-        size_min: 40,
+        speed: 10000,
+        size_min: 20,
         sync: false,
       },
     },
     line_linked: {
-      enable: false,
-      distance: 200,
-      color: '#ffffff',
-      opacity: 1,
-      width: 2,
+      enable: true,
+      distance: 50,
+      color: '#44e0ff',
+
+      width: 0.05,
     },
     move: {
       enable: true,
-      speed: 8,
-      direction: 'none',
+      speed: 3,
+      direction: 'top',
       random: false,
       straight: false,
       out_mode: 'out',
@@ -735,7 +729,7 @@ particlesJS('particles7-js', {
     detect_on: 'canvas',
     events: {
       onhover: {
-        enable: false,
+        enable: true,
         mode: 'grab',
       },
       onclick: {
@@ -1103,17 +1097,17 @@ particlesJS('particles10-js', {
 particlesJS('particles11-js', {
   particles: {
     number: {
-      value: 10,
+      value: 100,
       density: {
         enable: true,
         value_area: 800,
       },
     },
     color: {
-      value: '#5affd4',
+      value: '#24378C',
     },
     shape: {
-      type: ['image', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
+      type: ['circle', 'imag-e', 'image2', 'image3', 'image4', 'image5', 'image6', 'image7', 'image8', 'image9', 'image10'],
       stroke: {
         width: 0,
         color: '#000',
@@ -1122,7 +1116,7 @@ particlesJS('particles11-js', {
         nb_sides: 4,
       },
       image: {
-        src: 'images/particals_icon/10.png',
+        src: 'images/particals_icon/7.png',
       },
     },
     opacity: {
@@ -1131,12 +1125,12 @@ particlesJS('particles11-js', {
       anim: {
         enable: false,
         speed: 1,
-        opacity_min: 0.1,
+        opacity_min: 1,
         sync: false,
       },
     },
     size: {
-      value: 10,
+      value: 2,
       random: false,
       anim: {
         enable: false,
@@ -1146,16 +1140,16 @@ particlesJS('particles11-js', {
       },
     },
     line_linked: {
-      enable: false,
-      distance: 200,
-      color: '#ffffff',
+      enable: true,
+      distance: 100,
+      color: '#242c5b',
       opacity: 1,
       width: 2,
     },
     move: {
       enable: true,
       speed: 8,
-      direction: 'none',
+      direction: 'top',
       random: false,
       straight: false,
       out_mode: 'out',
@@ -1171,7 +1165,7 @@ particlesJS('particles11-js', {
     detect_on: 'canvas',
     events: {
       onhover: {
-        enable: false,
+        enable: true,
         mode: 'grab',
       },
       onclick: {
