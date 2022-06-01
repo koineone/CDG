@@ -6201,7 +6201,7 @@ select {
   height: 100%;
 }
 #contact_06 .address_wrapper .contact-info-wrapper .contact-info .single-list {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 #contact_06 .address_wrapper .contact-info-wrapper .contact-info .single-list .address_title {
   display: flex;
@@ -6413,8 +6413,11 @@ select {
 }
 #footer-06 .social-links {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   margin-top: 30px;
+  align-items: flex-start;
+  align-content: center;
+  padding-left: 25px;
 }
 #footer-06 .social-links li {
   display: inline-flex;
@@ -6440,7 +6443,7 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, #00B4D8 0%, #00B4D8 100%);
+  background: linear-gradient(to bottom, #00b4d8 0%, #00b4d8 100%);
   left: 0;
   right: 0;
   content: '';
