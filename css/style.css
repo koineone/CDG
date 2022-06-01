@@ -1054,7 +1054,7 @@ select {
   transition: all 0.3s ease 0s;
 }
 #team_membar .single-row .team-single-item figure figcaption .social-links {
-  background: linear-gradient(to right, #f78ca0, #fe9a8b);
+  background: linear-gradient(to right, #07108f, #07108f);
   margin: 0px auto;
   text-align: center;
   padding-left: 40px;
@@ -1105,7 +1105,7 @@ select {
 }
 #subscribe-wrapper:after {
   position: absolute;
-  background: #020c59;
+  background: #07108f;
   content: '';
   height: 40%;
   width: 100%;
@@ -1114,7 +1114,7 @@ select {
   z-index: -1;
 }
 #subscribe-wrapper #subscribe {
-  background: linear-gradient(to right, #f78ca0, #fe9a8b);
+  background: linear-gradient(to right, #07108f, #07108f);
   padding: 60px 0;
 }
 #subscribe-wrapper #subscribe .sub-title {
@@ -1133,7 +1133,7 @@ select {
   width: 100%;
   height: 60px;
   border: 0 none;
-  color: #4d6076;
+  color: #07108f;
   background: #ffffff;
   border-radius: 50px;
   padding: 0 190px 0 40px;
@@ -6440,7 +6440,7 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, #ee7abc 0%, #a481e7 100%);
+  background: linear-gradient(to bottom, #00B4D8 0%, #00B4D8 100%);
   left: 0;
   right: 0;
   content: '';
