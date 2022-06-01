@@ -4,7 +4,7 @@
 
 //End Particles
 // function([string1, string2],target id,[color1,color2])
-consoleText(['Digital Assets Training & Capacity Building', 'Digital Assets Financing', 'Crypto Accelerator Launchpad'], 'text', ['white', 'white', 'white']);
+consoleText(['Digital Assets Training & Capacity Building', 'Digital Assets Financing', 'Crypto Accelerator Launchpad'], 'text', ['white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -50,7 +50,7 @@ function consoleText(words, id, colors) {
 
       visible = true;
     }
-  }, 400);
+  }, 700);
 }
 
 particlesJS('particles1-js', {
