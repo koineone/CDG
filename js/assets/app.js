@@ -4,7 +4,9 @@
 
 //End Particles
 // function([string1, string2],target id,[color1,color2])
-consoleText(['Digital Assets Training & Capacity Building', 'Digital Assets Financing', 'Crypto Accelerator Launchpad'], 'text', ['white']);
+consoleText(['Digital Assets Training & Capacity Building', 'Digital Assets Financing', 'Crypto Accelerator Launchpad', ' Private/Institutional Asset Management & Custodial Services'], 'text', [
+  'white',
+]);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
