@@ -6535,6 +6535,7 @@ select {
 }
 #blog .blog_singel .blog-img img {
   border-radius: 3px;
+  height: 205px;
 }
 #blog .blog_singel .blog-img i {
   height: 50px;
