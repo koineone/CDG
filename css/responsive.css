@@ -1836,6 +1836,7 @@
   /* index-06 */
   #header-06 .navbar .language .token {
     line-height: 40px !important;
+    right: -180px !important;
   }
   #header-06 .intro-text {
     margin: 227px 0 100px;
